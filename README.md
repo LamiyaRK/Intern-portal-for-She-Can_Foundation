@@ -1,6 +1,10 @@
 # 🌟 Intern Dashboard (Dummy Project)
 
 A simple full stack intern dashboard project built using **React** for frontend and **Node.js + Express+ MongoDB** for backend. This project mimics an intern referral campaign with static data and includes login/signup UI, dashboard, and dummy data integration.
+## 🌐 Live Site
+
+🔗 [Click here to view the live project](https://intern-portal-for-she-can-foundatio-theta.vercel.app/)
+
 
 ## 🚀 Tech Stack
 
