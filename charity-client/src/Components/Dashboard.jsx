@@ -6,7 +6,7 @@ const Dashboard = () => {
     const [amount,setAmount]=useState([])
     const [loader,setLoader]=useState(true);
     useEffect(()=>{
-           fetch('http://localhost:3000/total-donation')
+           fetch('https://intern-portal-for-she-canfoundation-production.up.railway.app/total-donation')
            .then(res=>res.json())
            .then(data=>
             { 

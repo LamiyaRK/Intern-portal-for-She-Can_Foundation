@@ -6,7 +6,7 @@ const LeaderBoard = () => {
     const [data,setData]=useState([])
     const [loader,setLoader]=useState(true);
         useEffect(()=>{
-               fetch('http://localhost:3000/leaderboard')
+               fetch('https://intern-portal-for-she-canfoundation-production.up.railway.app/leaderboard')
                .then(res=>res.json())
                .then(data=>
                 { 
